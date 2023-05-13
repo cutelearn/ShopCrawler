@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crawler-shop"
+version = "0.1.0"
+description = ""
+authors = ["yang-lin94 <casongg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "crawler_shop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+bs4 = "^0.0.1"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
